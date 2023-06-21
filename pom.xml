@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ccheart</groupId>
-    <artifactId>bookkeeping</artifactId>
+    <artifactId>ebookkeeping</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>bookkeeping</name>
     <properties>
