@@ -1,1 +1,8 @@
-this is test book
+### EBookKeeping
+#### 愿景：
+做一款能简单明了记账的软件
+#### 预计实现端口：
+>> 1. WEB X
+>> 2. APP X
+>> 3. 小程序 X
+
