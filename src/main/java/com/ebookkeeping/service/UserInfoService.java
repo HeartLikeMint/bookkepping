@@ -1,4 +1,4 @@
-package com.bookkeeping.service;
+package com.ebookkeeping.service;
 
 /**
  * 用户信息服务

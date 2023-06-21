@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ab8730-5763-414a-932b-7f9387b13b6e" name="Changes" comment="web 包添加">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="93ab8730-5763-414a-932b-7f9387b13b6e" name="Changes" comment="包名修改">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/BookKeepingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/EBookKeepingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/controller/BookKeepingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/controller/BookKeepingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/entity/BookDetailEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/entity/BookDetailEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/entity/ChannelEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/entity/ChannelEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/entity/LedgerBookEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/entity/LedgerBookEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/entity/UserChannelEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/entity/UserChannelEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/entity/UserInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/entity/UserInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/entity/UserLedgerBookEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/entity/UserLedgerBookEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bookkeeping/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ebookkeeping/service/UserInfoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +48,11 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\work\开发环境\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -60,6 +77,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "false",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "last_opened_file_path": "D:/work/project/myWorkProJect/ebookkeeping",
@@ -67,10 +85,10 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "application.passwordSafe",
+    "settings.editor.selected.configurable": "MavenSettings",
     "spring.configuration.checksum": "ff0e8a29ffe82ea495b88605724db413",
     "vue.rearranger.settings.migration": "true"
   },
@@ -127,6 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EBookKeepingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ebookkeeping" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ebookkeeping.EBookKeepingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.com.ccheart.bookkeeping.BookKeepingApplication" />
@@ -148,7 +173,7 @@
       <workItem from="1675062566973" duration="3763000" />
       <workItem from="1675068049104" duration="927000" />
       <workItem from="1675126812246" duration="3250000" />
-      <workItem from="1687336729378" duration="137000" />
+      <workItem from="1687336729378" duration="2116000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1674960647375</created>
@@ -171,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675063886585</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="排除">
+      <created>1687336907980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687336907980</updated>
+    </task>
+    <task id="LOCAL-00005" summary="包名修改">
+      <created>1687336970527</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687336970527</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +243,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <MESSAGE value="web 包添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="web 包添加" />
+    <MESSAGE value="排除" />
+    <MESSAGE value="包名修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="包名修改" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.bookkeeping.service;
+package com.ebookkeeping.service;
 
 public interface LoginService {
 }
