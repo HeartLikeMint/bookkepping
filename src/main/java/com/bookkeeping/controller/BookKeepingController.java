@@ -1,4 +1,4 @@
-package com.ccheart.bookkeeping.controller;
+package com.bookkeeping.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

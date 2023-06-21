@@ -1,4 +1,4 @@
-package com.ccheart.bookkeeping.entity;
+package com.bookkeeping.entity;
 
 import lombok.Data; 
 import lombok.experimental.Accessors; 

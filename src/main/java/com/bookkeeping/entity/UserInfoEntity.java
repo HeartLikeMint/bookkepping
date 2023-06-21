@@ -1,44 +1,44 @@
-package com.ccheart.bookkeeping.entity;
+package com.bookkeeping.entity;
 
 import lombok.Data; 
 import lombok.experimental.Accessors; 
 
 /**
- * description: Channel <br>
+ * description: UserInfo <br>
  * date: 2023-01-30 16:42:40 <br>
  * author: cc heart <br>
  * version: 1.0 <br>
  */
 @Accessors(chain = true)
 @Data
-public class ChannelEntity{
+public class UserInfoEntity{
 
 /**
- * null <br>
+ * id主键 <br>
  * 
  */
   private Long id;
 
 /**
- * 渠道名称 <br>
+ * 用户编码 <br>
+ * 
+ */
+  private String code;
+
+/**
+ * 用户名 <br>
  * 
  */
   private String name;
 
 /**
- * 渠道类型 0 支出 1 收入 <br>
+ * 密码 <br>
  * 
  */
-  private String type;
+  private String password;
 
 /**
- * 渠道图标 <br>
- * 
- */
-  private String icon;
-
-/**
- * 创建时间 <br>
+ * 注册时间 <br>
  * 
  */
   private String createTime;
