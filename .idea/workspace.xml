@@ -4,10 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93ab8730-5763-414a-932b-7f9387b13b6e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="93ab8730-5763-414a-932b-7f9387b13b6e" name="Changes" comment="web 包添加">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccheart/bookkeeping/controller/BookKeepingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccheart/bookkeeping/entity/BookDetailEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccheart/bookkeeping/entity/ChannelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccheart/bookkeeping/entity/LedgerBookEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccheart/bookkeeping/entity/UserChannelEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccheart/bookkeeping/entity/UserInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccheart/bookkeeping/entity/UserLedgerBookEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccheart/bookkeeping/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ccheart/bookkeeping/service/UserInfoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,12 +59,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "D:/work/project/myWorkProJect/bookkeeping/src/main/java/com/ccheart/bookkeeping/entity",
+    "last_opened_file_path": "D:/work/project/cep/cep-common",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +76,8 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "application.passwordSafe",
+    "spring.configuration.checksum": "ff0e8a29ffe82ea495b88605724db413",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -73,7 +86,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.ccheart.bookkeeping.BookKeepingApplication">
+  <component name="RunManager" selected="Spring Boot.BookKeepingApplication">
     <configuration name="BookKeepingApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cl.bookkeeping.BookKeepingApplication" />
       <module name="bookkeeping" />
@@ -115,6 +128,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="93ab8730-5763-414a-932b-7f9387b13b6e" name="Changes" comment="" />
@@ -122,7 +138,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674959551149</updated>
-      <workItem from="1675062566973" duration="1261000" />
+      <workItem from="1675062566973" duration="3763000" />
+      <workItem from="1675068049104" duration="927000" />
+      <workItem from="1675126812246" duration="3250000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1674960647375</created>
@@ -138,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674962714153</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="web 包添加">
+      <created>1675063886585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675063886585</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +195,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="web 包添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="web 包添加" />
   </component>
 </project>
